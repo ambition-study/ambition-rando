@@ -11,12 +11,12 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='ambition-rando',
-    version='0.1.3',
+    version='0.1.4',
     author=u'Erik van Widenfelt',
     author_email='ew2789@gmail.com',
     packages=find_packages(),
     include_package_data=True,
-    url='https://github.com/botswana-harvard/ambition-rando',
+    url='https://github.com/ambition-study/ambition-rando',
     license='GPL license, see LICENSE',
     description='Randomization class and models for Ambition',
     long_description=README,
